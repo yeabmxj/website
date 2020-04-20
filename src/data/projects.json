@@ -1,0 +1,18 @@
+[
+	{
+		"title": "Infinite Recharge 2020",
+		"date": "2020-01",
+		"description":
+			"Code for the 2020 FRC Competition",
+		"url": "https://github.com/yeabmxj/InfiniteRecharge2020",
+		"thumbnailImage": "../images/projects/abstract-q-g-200-200-3.jpg"
+	},
+	{
+		"title": "AgriSensor",
+		"date": "2020-04",
+		"description":
+			"All around plant app",
+		"url": "https://github.com/yeabmxj/AgriSensor",
+		"thumbnailImage": "../images/projects/abstract-q-g-200-200-3.jpg"
+	}
+]
