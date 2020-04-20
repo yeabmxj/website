@@ -63,6 +63,6 @@ module.exports = {
       options: {
         trackingId: 'UA-XXXXXXXXX-X',
       },
-    },
+},
   ],
 };
