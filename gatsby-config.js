@@ -4,6 +4,7 @@ module.exports = {
     title: `Yeabsira's Personal Website`,
     description: `Yeabsira Moges's Personal Website/Portfolio`,
     author: `@yeabmxj`,
+    baseUrl: `https://yeabsira.netlify.app`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
