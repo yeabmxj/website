@@ -1,0 +1,56 @@
+{
+  "name": "Personal Website",
+  "private": true,
+  "description": "Website to feature my projects/interets",
+  "version": "0.1.0",
+  "author": "Yeasbira Moges <yeabsira.r.moges@gmail.com>",
+  "dependencies": {
+    "gatsby": "^2.20.28",
+    "gatsby-image": "^2.3.4",
+    "gatsby-plugin-google-analytics": "^2.2.4",
+    "gatsby-plugin-manifest": "^2.3.5",
+    "gatsby-plugin-offline": "^3.1.4",
+    "gatsby-plugin-react-helmet": "^3.2.4",
+    "gatsby-plugin-sass": "^2.2.3",
+    "gatsby-plugin-sharp": "^2.5.6",
+    "gatsby-remark-images": "^3.2.4",
+    "gatsby-remark-prismjs": "^3.4.4",
+    "gatsby-source-filesystem": "^2.2.4",
+    "gatsby-transformer-json": "^2.3.3",
+    "gatsby-transformer-remark": "^2.7.3",
+    "gatsby-transformer-sharp": "^2.4.6",
+    "node-sass": "^4.13.1",
+    "prismjs": "^1.20.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^6.0.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0",
+    "prettier": "2.0.4"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "resolutions": {
+    "eslint-loader": "2.1.2"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
