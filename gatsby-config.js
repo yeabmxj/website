@@ -5,20 +5,6 @@ module.exports = {
     description: `Yeabsira Moges's Personal Website/Portfolio`,
     author: `@yeabmxj`,
     baseUrl: `https://yeabsira.netlify.app`,
-    menuLinks:[
-      {
-        name: `Home`,
-        link: `/`
-      },
-      {
-        name: `Projects`,
-        link: `/projects`
-      },
-      {
-        name: `Blog`,
-        link: `/blog`
-      }
-    ]
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -68,6 +54,7 @@ module.exports = {
       },
     },
     `gatsby-transformer-json`,
+    'gatsby-plugin-styled-components',
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -79,6 +66,6 @@ module.exports = {
       options: {
         trackingId: 'UA-XXXXXXXXX-X',
       },
-},
+    },
   ],
 };
